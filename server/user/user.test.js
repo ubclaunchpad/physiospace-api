@@ -1,3 +1,5 @@
+/** Todo: Figure out testing later
+
 const mongoose = require('mongoose');
 const request = require('supertest-as-promised');
 const httpStatus = require('http-status');
@@ -7,9 +9,6 @@ const app = require('../../index');
 
 chai.config.includeStack = true;
 
-/**
- * root level hooks
- */
 after((done) => {
   // required because https://github.com/Automattic/mongoose/issues/1251#issuecomment-65793092
   mongoose.models = {};
@@ -120,3 +119,4 @@ describe('## User APIs', () => {
     });
   });
 });
+ */
